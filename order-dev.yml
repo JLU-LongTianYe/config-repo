@@ -1,5 +1,5 @@
 env:
-  dev1777888
+  dev177
 spring:
   application:
     name: order
@@ -8,12 +8,15 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
     username: root
     password: Long6617
+  rabbitmq:
+    port: 5672
+    host: 192.168.242.128
+    username: guest
+    password: guest 
 
 server:
   port: 8763
-girl:
-  name: lisi
-  age: 17
+
 #hystrix的超时时间
 # hystrix:
 #   command:
