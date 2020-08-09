@@ -10,7 +10,7 @@ spring:
     password: Long6617
   rabbitmq:
     port: 5672
-    host: 192.168.242.128
+    host: 192.168.242.131
     username: guest
     password: guest 
 
