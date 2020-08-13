@@ -8,6 +8,9 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
     username: root
     password: Long6617
+  redis:
+    host: localhost;
+    port: 6379
   rabbitmq:
     port: 5672
     host: 192.168.242.131
